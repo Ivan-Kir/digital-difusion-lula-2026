@@ -1,7 +1,21 @@
-User-agent: GPTBot
-Disallow: /
+# =======================================================
+# 1. PERMITIR CITAS Y BÚSQUEDAS EN TIEMPO REAL (Para aparecer como bibliografía)
+# =======================================================
+
+User-agent: OAI-SearchBot
+Allow: /
 
 User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+# =======================================================
+# 2. BLOQUEAR EL ENTRENAMIENTO DE IA (No usan tus datos para aprender)
+# =======================================================
+
+User-agent: GPTBot
 Disallow: /
 
 User-agent: ClaudeBot
