@@ -21,10 +21,120 @@
     <meta name="citation_keywords" content="Lula, Estrategia Digital, Redes Sociales, Elecciones Brasil 2026, Exército">
     <!-- ======================================================================= -->
     <link rel="icon" type="image/png" href="./favicon.png">
-    <style>        
+    <style>      
+        /* ========================================
+           VARIABLES Y CONFIGURACIÓN GENERAL
+        ======================================== */
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            margin: 0;
+            background: #f2f4f7;
+            color: #273142;
+            font-family: "Segoe UI", Arial, sans-serif;
+            line-height: 1.7;
+        }
+        
+        /* ========================================
+           DOCUMENTO PRINCIPAL
+        ======================================== */
+        
+        .document {
+            max-width: 1050px;
+            margin: 40px auto;
+            padding: 65px 75px;
+            background: white;
+            box-shadow: 0 3px 25px rgba(0, 0, 0, .08);
+            border-radius: 8px;
+            overflow-wrap: anywhere;
+        }
+        
+        /* ========================================
+           TIPOGRAFÍA Y CONTENIDO
+        ======================================== */
+        
+        h1, h2, h3, h4 {
+            color: #172b4d;
+            line-height: 1.3;
+            margin-top: 1.7em;
+            margin-bottom: .65em;
+        }
+        
+        h1 { font-size: 2.1em; }
+        h2 { font-size: 1.65em; }
+        h3 { font-size: 1.3em; }
+        
+        p {
+            margin: 0 0 1em;
+        }
+        
+        ul, ol {
+            padding-left: 2em;
+            margin: .5em 0 1.2em;
+        }
+        
+        li {
+            margin-bottom: .35em;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5em 0;
+            font-size: .95em;
+        }
+        
+        td, th {
+            border: 1px solid #d8dee8;
+            padding: 10px 13px;
+            text-align: left;
+            vertical-align: top;
+        }
+        
+        tr:nth-child(even) {
+            background: #f7f9fc;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 1.5em auto;
+        }
+        
+        a {
+            color: #1769aa;
+        }
+        
+        blockquote {
+            margin: 1.5em 0;
+            padding: 12px 20px;
+            border-left: 4px solid #7b9cc8;
+            background: #f5f7fa;
+        }
+        
+        hr {
+            border: 0;
+            border-top: 1px solid #ddd;
+            margin: 2em 0;
+        }
+        
+        /* ========================================
+           AUTORÍA
+        ======================================== */
+        
         .author-section {
-            margin: 40px 0;
-            color: var(--text-color, inherit);
+            display: flow-root;
+            margin: 0;
+            padding: 35px 0;
+            color: inherit;
+        }
+        
+        .author-section p {
+            margin-bottom: 0;
         }
         
         .author-info {
@@ -37,7 +147,7 @@
         }
         
         .author-role {
-            margin: 5px 0 10px;
+            margin: 5px 0 10px !important;
             font-size: 14px;
             font-weight: 600;
         }
@@ -47,7 +157,7 @@
             margin: 0 auto;
             font-size: 13px;
             line-height: 1.6;
-            color: var(--secondary-text, #666);
+            color: #666;
         }
         
         .author-links {
@@ -59,7 +169,7 @@
         }
         
         .author-links a {
-            color: var(--text-color, inherit);
+            color: inherit;
             font-size: 13px;
             font-weight: 600;
             text-decoration: none;
@@ -72,7 +182,7 @@
         .report-meta {
             margin-top: 18px;
             padding-top: 12px;
-            border-top: 1px solid var(--border-color, #ddd);
+            border-top: 1px solid #ddd;
             text-align: center;
             font-size: 13px;
             line-height: 1.5;
@@ -86,49 +196,47 @@
             font-size: 16px;
         }
         
-        @media (max-width: 500px) {
-            .author-links {
-                gap: 14px;
-            }
-        }
-
+        /* ========================================
+           BANNER DE COPYRIGHT
+        ======================================== */
+        
         .academic-copyright-banner {
             background-color: #f8f9fa;
-            color: #333333;
+            color: #333;
             border-top: 3px solid #0056b3;
             padding: 25px 15px;
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
             font-size: 13px;
             line-height: 1.6;
         }
-
+        
         .banner-container {
             max-width: 800px;
             margin: 0 auto;
             text-align: left;
         }
-
+        
         .copyright-line {
             font-weight: bold;
             font-size: 14px;
             margin-bottom: 5px;
         }
-
+        
         .license-line a {
             color: #0056b3;
             text-decoration: underline;
             font-weight: bold;
         }
-
+        
         .citation-box {
-            background-color: #ffffff;
+            background-color: #fff;
             border-left: 4px solid #0056b3;
             padding: 12px;
             margin-top: 15px;
             border-radius: 4px;
-            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, .05);
         }
-
+        
         .citation-text {
             font-family: "Courier New", Courier, monospace;
             color: #555;
@@ -136,13 +244,14 @@
             margin-top: 5px;
             word-break: break-all;
         }
-
-        /* Estilos del Banner de IA */
+        
+        /* ========================================
+           BANNER DE DECLARACIÓN DE IA
+        ======================================== */
+        
         .ai-disclaimer-banner {
             background-color: #f0f7ff;
-            /* Azul analítico muy suave, denota seriedad */
             color: #1e3a8a;
-            /* Texto azul oscuro de alta legibilidad */
             border-bottom: 1px solid #bfdbfe;
             padding: 12px 20px;
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -150,20 +259,19 @@
             line-height: 1.5;
             position: relative;
         }
-
+        
         .ai-banner-content {
             max-width: 1200px;
             margin: 0 auto;
             padding-right: 30px;
-            /* Espacio para que el texto no choque con la X */
             display: flex;
             align-items: center;
         }
-
+        
         .ai-banner-text strong {
             color: #1d4ed8;
         }
-
+        
         .ai-banner-close {
             position: absolute;
             right: 20px;
@@ -177,132 +285,45 @@
             line-height: 1;
             padding: 4px 8px;
             border-radius: 4px;
-            transition: background-color 0.2s;
+            transition: background-color .2s;
         }
-
+        
         .ai-banner-close:hover {
             background-color: #dbeafe;
         }
-
+        
         .ai-banner-close:focus {
             outline: 2px solid #2563eb;
         }
-
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            margin: 0;
-            background: #f2f4f7;
-            color: #273142;
-            font-family: "Segoe UI", Arial, sans-serif;
-            line-height: 1.7;
-        }
-
-        .document {
-            max-width: 1050px;
-            margin: 40px auto;
-            padding: 65px 75px;
-            background: white;
-            box-shadow: 0 3px 25px rgba(0, 0, 0, .08);
-            border-radius: 8px;
-            overflow-wrap: anywhere;
-        }
-
-        h1,
-        h2,
-        h3,
-        h4 {
-            color: #172b4d;
-            line-height: 1.3;
-            margin-top: 1.7em;
-            margin-bottom: .65em;
-        }
-
-        h1 {
-            font-size: 2.1em;
-        }
-
-        h2 {
-            font-size: 1.65em;
-        }
-
-        h3 {
-            font-size: 1.3em;
-        }
-
-        p {
-            margin: 0 0 1em;
-        }
-
-        ul,
-        ol {
-            padding-left: 2em;
-            margin: .5em 0 1.2em;
-        }
-
-        li {
-            margin-bottom: .35em;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 1.5em 0;
-            font-size: .95em;
-        }
-
-        td,
-        th {
-            border: 1px solid #d8dee8;
-            padding: 10px 13px;
-            text-align: left;
-            vertical-align: top;
-        }
-
-        tr:nth-child(even) {
-            background: #f7f9fc;
-        }
-
-        img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 1.5em auto;
-        }
-
-        a {
-            color: #1769aa;
-        }
-
-        blockquote {
-            margin: 1.5em 0;
-            padding: 12px 20px;
-            border-left: 4px solid #7b9cc8;
-            background: #f5f7fa;
-        }
-
-        hr {
-            border: 0;
-            border-top: 1px solid #ddd;
-            margin: 2em 0;
-        }
-
+        
+        /* ========================================
+           RESPONSIVE
+        ======================================== */
+        
         @media (max-width: 700px) {
             .document {
                 margin: 0;
                 padding: 25px 18px;
                 border-radius: 0;
             }
-
+        
             table {
                 display: block;
                 overflow-x: auto;
             }
-
+        
             h1 {
                 font-size: 1.7em;
+            }
+        }
+        
+        @media (max-width: 500px) {
+            .author-section {
+                padding: 28px 0;
+            }
+        
+            .author-links {
+                gap: 14px;
             }
         }
     </style>
@@ -350,14 +371,6 @@
                     <strong>Informe técnico</strong>
                     <span>Versión 1.0</span>
                 </div>
-            <div class="report-meta">
-                <p><strong>Informe técnico · Versión 1.0</strong></p>
-                <p>
-                    <strong>Finalizado:</strong> 29 de octubre de 2026
-                    &nbsp;·&nbsp;
-                    <strong>Publicado:</strong> 2 de noviembre de 2026
-                </p>
-            </div>
             </div>
         </section>        
         <p>Objeto de estudio: el canal de WhatsApp «Exército do Lula» y la estrategia digital liderada por el diputado
