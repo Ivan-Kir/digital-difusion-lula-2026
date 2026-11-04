@@ -21,131 +21,122 @@
     <meta name="citation_keywords" content="Lula, Estrategia Digital, Redes Sociales, Elecciones Brasil 2026, Exército">
     <!-- ======================================================================= -->
     <link rel="icon" type="image/png" href="./favicon.png">
-    <style>    
-    .author-card {
-        margin: 36px 0 20px;
-        padding: 25px 28px 0;
-        border: 1px solid var(--border-color, #dedede);
-        border-radius: 12px;
-        background: var(--card-bg, #fafafa);
-        color: var(--text-color, #222);
-        overflow: hidden;
-    }
-    
-    .author-main {
-        display: flex;
-        align-items: flex-start;
-        gap: 20px;
-    }
-    
-    .author-avatar {
-        width: 58px;
-        height: 58px;
-        min-width: 58px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 50%;
-        background: #263b53;
-        color: white;
-        font-size: 19px;
-        font-weight: 700;
-        letter-spacing: 1px;
-    }
-    
-    .author-info {
-        flex: 1;
-    }
-    
-    .author-label {
-        display: block;
-        margin-bottom: 5px;
-        color: #788594;
-        font-size: 10px;
-        font-weight: 700;
-        letter-spacing: 1.5px;
-    }
-    
-    .author-info h3 {
-        margin: 0 0 5px;
-        font-size: 21px;
-        font-weight: 650;
-    }
-    
-    .author-role {
-        margin: 0 0 10px;
-        font-size: 13px;
-        font-weight: 600;
-        color: var(--secondary-text, #687482);
-    }
-    
-    .author-description {
-        max-width: 680px;
-        margin: 0;
-        font-size: 13px;
-        line-height: 1.65;
-        color: var(--secondary-text, #59636f);
-    }
-    
-    .author-links {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 9px;
-        margin: 22px 0;
-    }
-    
-    .author-links a {
-        padding: 7px 12px;
-        border: 1px solid var(--border-color, #dedede);
-        border-radius: 6px;
-        color: var(--text-color, #333);
-        font-size: 12px;
-        font-weight: 600;
-        text-decoration: none;
-        transition: background .2s, border-color .2s, color .2s;
-    }
-    
-    .author-links a:hover {
-        background: #263b53;
-        border-color: #263b53;
-        color: white;
-    }
-    
-    .author-footer {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        gap: 8px;
-        padding: 13px 0;
-        border-top: 1px solid var(--border-color, #dedede);
-        color: var(--secondary-text, #78818c);
-        font-size: 11px;
-    }
-    
-    @media (max-width: 600px) {
+    <style>        
         .author-card {
-            padding: 20px 17px 0;
+            margin: 35px 0;
+            padding: 25px;
+            border: 1px solid var(--border-color, #ddd);
+            border-radius: 10px;
+            background: var(--card-bg, #fafafa);
+            color: var(--text-color, #222);
         }
-    
-        .author-main {
-            gap: 13px;
+        
+        .author-info {
+            text-align: center;
         }
-    
-        .author-avatar {
-            width: 45px;
-            height: 45px;
-            min-width: 45px;
-            font-size: 15px;
+        
+        .author-label {
+            font-size: 10px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            color: #788594;
         }
-    
+        
         .author-info h3 {
-            font-size: 18px;
+            margin: 7px 0;
+            font-size: 24px;
         }
-    
-        .author-footer {
+        
+        .author-role {
+            margin: 5px 0 12px;
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--secondary-text, #555);
+        }
+        
+        .author-description {
+            max-width: 650px;
+            margin: 0 auto;
+            font-size: 13px;
+            line-height: 1.65;
+            color: var(--secondary-text, #666);
+        }
+        
+        .author-links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin: 23px 0 27px;
+        }
+        
+        .author-links a {
+            padding: 8px 16px;
+            border: 1px solid var(--border-color, #ddd);
+            border-radius: 5px;
+            color: var(--text-color, #333);
+            font-size: 13px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: .2s;
+        }
+        
+        .author-links a:hover {
+            background: #263b53;
+            border-color: #263b53;
+            color: white;
+        }
+        
+        .report-meta {
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color, #ddd);
+            text-align: center;
+        }
+        
+        .report-version {
+            display: flex;
+            justify-content: center;
+            align-items: baseline;
+            gap: 9px;
+            margin-bottom: 16px;
+            font-size: 17px;
+        }
+        
+        .report-version span {
+            font-weight: 400;
+        }
+        
+        .report-dates {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 35px;
+        }
+        
+        .report-dates div {
+            display: flex;
             flex-direction: column;
+            gap: 4px;
         }
-    }
+        
+        .report-dates strong {
+            font-size: 12px;
+        }
+        
+        .report-dates span {
+            font-size: 13px;
+            color: var(--secondary-text, #666);
+        }
+        
+        @media (max-width: 500px) {
+            .author-card {
+                padding: 18px;
+            }
+        
+            .report-dates {
+                gap: 18px;
+            }
+        }
 
         .academic-copyright-banner {
             background-color: #f8f9fa;
@@ -380,39 +371,44 @@
                     aria-label="Cerrar aviso de transparencia">&times;</button>
             </div>
         </div>
-        <section class="author-card">
-            <div class="author-main">
-                <div class="author-avatar">IJK</div>
-        
-                <div class="author-info">
-                    <span class="author-label">AUTOR DEL INFORME</span>
-                    <h3>Iván Josué Kirchuk</h3>
-                    <p class="author-role">
-                        Licenciado en Sociología · UBA
-                    </p>
-                    <p class="author-description">
-                        Sr. Data Engineer especializado en plataformas de datos,
-                        Cloud, ETL, Machine Learning, Inteligencia Artificial y
-                        análisis computacional de fenómenos sociales y redes.
-                    </p>
+
+        <section class="author-card">        
+            <div class="author-info">
+                <span class="author-label">AUTOR</span>
+                <h3>Iván Josué Kirchuk</h3>
+                <p class="author-role">
+                    Licenciado en Sociología (UBA) · Sr. Data Engineer especializado
+                    en plataformas de datos, Cloud, ETL, Machine Learning, Inteligencia
+                    Artificial y análisis computacional de fenómenos sociales y redes.
+                </p>
+            </div>
+            <nav class="author-links">
+                <a href="https://github.com/Ivan-Kir"
+                   target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://scholar.google.com/citations?user=AWA44LoAAAAJ"
+                   target="_blank" rel="noopener noreferrer">Scholar</a>
+                <a href="https://linkedin.com/in/iván-josué-kirchuk-34703925b"
+                   target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://instagram.com/ivo.kir"
+                   target="_blank" rel="noopener noreferrer">Instagram</a>
+            </nav>
+            <div class="report-meta">
+                <div class="report-version">
+                    <strong>Informe técnico</strong>
+                    <span>Versión 1.0</span>
                 </div>
-            </div>        
-            <div class="author-links">
-                <a href="https://github.com/Ivan-Kir" target="_blank" rel="noopener noreferrer">GitHub</a>
-                <a href="https://scholar.google.com/citations?user=AWA44LoAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
-                <a href="https://ar.linkedin.com/in/iván-josué-kirchuk-34703925b" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                <a href="https://instagram.com/ivo.kir" target="_blank" rel="noopener noreferrer">Instagram</a>
+                <div class="report-dates">
+                    <div>
+                        <strong>Finalizado</strong>
+                        <span>29 de octubre de 2026</span>
+                    </div>
+                    <div>
+                        <strong>Publicado</strong>
+                        <span>2 de noviembre de 2026</span>
+                    </div>
+                </div>
             </div>
-        
-            <div class="author-footer">
-                <span>Informe técnico · Versión 1.0</span>
-                <span>
-                    Finalizado: 29 de octubre de 2026
-                    &nbsp;·&nbsp;
-                    Publicado: 2 de noviembre de 2026
-                </span>
-            </div>
-        </section>
+        </section>        
         <p>Objeto de estudio: el canal de WhatsApp «Exército do Lula» y la estrategia digital liderada por el diputado
             André Janones (Rede-MG), entre el 5 y el 25 de octubre de 2026. Base de evidencia: informes de plataformas y
             del TSE, resultados oficiales, encuestas, estimaciones de flujos de votos, boletines de NetLab UFRJ,
