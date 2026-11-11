@@ -1,0 +1,173 @@
+{
+ "n_mensajes": 459,
+ "temas": [
+  {
+   "tema": 1,
+   "mensajes_pct": 25.9,
+   "terminos": [
+    "canal",
+    "lula",
+    "estão",
+    "whatsapp",
+    "milhões",
+    "exército",
+    "pessoas",
+    "10",
+    "mil",
+    "gente"
+   ],
+   "pesos": [
+    1.478,
+    0.995,
+    0.581,
+    0.535,
+    0.49,
+    0.482,
+    0.46,
+    0.364,
+    0.364,
+    0.355
+   ]
+  },
+  {
+   "tema": 2,
+   "mensajes_pct": 22.0,
+   "terminos": [
+    "vídeo",
+    "mandar",
+    "áudio",
+    "minutos",
+    "curtido",
+    "vidas",
+    "desse",
+    "façam",
+    "enviar",
+    "nesse"
+   ],
+   "pesos": [
+    1.315,
+    0.415,
+    0.384,
+    0.292,
+    0.162,
+    0.16,
+    0.142,
+    0.134,
+    0.121,
+    0.114
+   ]
+  },
+  {
+   "tema": 3,
+   "mensajes_pct": 17.0,
+   "terminos": [
+    "agora",
+    "subam",
+    "presidente",
+    "importante",
+    "vivo",
+    "vida",
+    "lula",
+    "exército",
+    "mandar",
+    "hastag"
+   ],
+   "pesos": [
+    1.294,
+    0.48,
+    0.256,
+    0.248,
+    0.229,
+    0.204,
+    0.19,
+    0.187,
+    0.153,
+    0.124
+   ]
+  },
+  {
+   "tema": 4,
+   "mensajes_pct": 10.2,
+   "terminos": [
+    "quem",
+    "deve",
+    "puder",
+    "enviar",
+    "sabem",
+    "nele",
+    "quiser",
+    "dessa",
+    "entra",
+    "vota"
+   ],
+   "pesos": [
+    1.56,
+    0.237,
+    0.201,
+    0.191,
+    0.168,
+    0.15,
+    0.148,
+    0.129,
+    0.121,
+    0.111
+   ]
+  },
+  {
+   "tema": 5,
+   "mensajes_pct": 20.0,
+   "terminos": [
+    "live",
+    "amanhã",
+    "mundo",
+    "debate",
+    "estúdio",
+    "horas",
+    "24",
+    "estar",
+    "missão",
+    "estou"
+   ],
+   "pesos": [
+    1.121,
+    0.798,
+    0.458,
+    0.382,
+    0.19,
+    0.185,
+    0.178,
+    0.158,
+    0.139,
+    0.132
+   ]
+  },
+  {
+   "tema": 6,
+   "mensajes_pct": 4.8,
+   "terminos": [
+    "entrar",
+    "clicar",
+    "depois",
+    "publicado",
+    "atualizações",
+    "ah",
+    "puder",
+    "presidente",
+    "ir",
+    "celular"
+   ],
+   "pesos": [
+    1.253,
+    0.857,
+    0.509,
+    0.193,
+    0.193,
+    0.193,
+    0.179,
+    0.156,
+    0.11,
+    0.095
+   ]
+  }
+ ]
+}

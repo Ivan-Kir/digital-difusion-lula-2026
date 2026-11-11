@@ -1,0 +1,244 @@
+{
+ "mann_whitney": {
+  "n_pre": 6,
+  "n_post": 15,
+  "mediana_pre": 0.0,
+  "mediana_post": 19.0,
+  "media_pre": 2.3,
+  "media_post": 17.6,
+  "U": 85.0,
+  "p": 0.0009
+ },
+ "logit": {
+  "variables": [
+   "constante",
+   "tamaño_canal_M",
+   "nombra_a_Flavio",
+   "longitud"
+  ],
+  "coef": [
+   -1.955,
+   0.828,
+   -0.386,
+   -0.085
+  ],
+  "p": [
+   0.507,
+   0.06,
+   0.699,
+   0.34
+  ],
+  "OR_tamano": 2.29
+ },
+ "or_por_millon": 2.26,
+ "roc": {
+  "auc_tamano": 0.777,
+  "p_permutacion": 0.0064,
+  "auc_loo_tamano": 0.666,
+  "auc_loo_3vars": 0.697,
+  "fpr": [
+   0.0,
+   0.0,
+   0.0,
+   0.125,
+   0.125,
+   0.375,
+   0.375,
+   0.625,
+   0.75,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "tpr": [
+   0.0,
+   0.125,
+   0.375,
+   0.375,
+   0.6,
+   0.6,
+   0.75,
+   0.75,
+   0.75,
+   0.75,
+   0.925,
+   1.0
+  ],
+  "umbral": [
+   1.0,
+   0.993,
+   0.987,
+   0.971,
+   0.918,
+   0.815,
+   0.782,
+   0.68,
+   0.68,
+   0.68,
+   0.621,
+   0.621
+  ],
+  "positivos": 40,
+  "n": 48
+ },
+ "tasa_por_fase": [
+  {
+   "fase": "A",
+   "ordenadas": 3,
+   "entran": 3,
+   "tasa": 1.0,
+   "miembros_M": 5.4
+  },
+  {
+   "fase": "B",
+   "ordenadas": 12,
+   "entran": 7,
+   "tasa": 0.583,
+   "miembros_M": 5.4
+  },
+  {
+   "fase": "C",
+   "ordenadas": 8,
+   "entran": 6,
+   "tasa": 0.75,
+   "miembros_M": 6.3
+  },
+  {
+   "fase": "D",
+   "ordenadas": 10,
+   "entran": 9,
+   "tasa": 0.9,
+   "miembros_M": 7.7
+  },
+  {
+   "fase": "E",
+   "ordenadas": 10,
+   "entran": 10,
+   "tasa": 1.0,
+   "miembros_M": 10.0
+  },
+  {
+   "fase": "F",
+   "ordenadas": 5,
+   "entran": 5,
+   "tasa": 1.0,
+   "miembros_M": 10.8
+  }
+ ],
+ "spearman_tasa_tamano_BF": {
+  "rho": 0.975,
+  "p": 0.0048
+ },
+ "orden_vs_hora": {
+  "debate_band": {
+   "n": 7,
+   "rho": 0.954,
+   "p": 0.0008,
+   "horas_absolutas": [
+    452,
+    453,
+    453,
+    454,
+    454,
+    454,
+    455
+   ]
+  },
+  "live_22_10": {
+   "n": 6,
+   "rho": 0.926,
+   "p": 0.008,
+   "horas_absolutas": [
+    546,
+    546,
+    546,
+    547,
+    547,
+    548
+   ]
+  },
+  "globo_24_10": {
+   "n": 5,
+   "rho": 0.866,
+   "p": 0.0577,
+   "horas_absolutas": [
+    574,
+    574,
+    574,
+    575,
+    575
+   ]
+  }
+ },
+ "spearman_canal_vs_x": {
+  "apar_movilizacion": {
+   "rho": -0.29,
+   "p": 0.49
+  },
+  "apar_lula": {
+   "rho": 0.31,
+   "p": 0.46
+  },
+  "apar_flavio_bolsonaro": {
+   "rho": -0.02,
+   "p": 0.96
+  }
+ },
+ "difusion": {
+  "nuevos_por_miembro_5d": 0.85,
+  "nuevos_por_miembro_11d": 2.33,
+  "cumplimiento_maximo_pedido_3": 0.28,
+  "R": {
+   "T=1d": {
+    "pico": 1.13,
+    "final": 1.08
+   },
+   "T=2d": {
+    "pico": 1.28,
+    "final": 1.17
+   },
+   "T=3d": {
+    "pico": 1.45,
+    "final": 1.26
+   }
+  },
+  "factor_crecimiento_5d": 1.85,
+  "reel": {
+   "envios_por_vista": 0.12,
+   "comentarios_por_vista": 0.145,
+   "likes_por_vista": 0.208,
+   "reposts_por_vista": 0.037,
+   "interacciones_por_vista": 0.51
+  },
+  "reenvios_por_seguidor": 0.0088,
+  "publicaciones_por_cuenta_x": 17.2
+ },
+ "x_debates": {
+  "flavio_antes_band_11_17": 41.6,
+  "flavio_despues_band_19_22": 104.2,
+  "lula_antes_band_11_17": 110.3,
+  "lula_despues_band_19_22": 113.0,
+  "mov_antes_band_11_17": 43.3,
+  "mov_despues_band_19_22": 74.2,
+  "flavio_globo_23_24": 48.5,
+  "mov_globo_23_24": 42.0
+ },
+ "censura_por_dia": {
+  "10": 3,
+  "11": 9,
+  "12": 18,
+  "13": 15,
+  "14": 71,
+  "15": 33,
+  "16": 14,
+  "17": 0,
+  "18": 0,
+  "19": 0,
+  "20": 0,
+  "21": 11,
+  "22": 0,
+  "23": 24,
+  "24": 6,
+  "25": 0
+ }
+}

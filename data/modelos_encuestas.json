@@ -1,0 +1,86 @@
+{
+ "n_encuestas": 69,
+ "r2": 0.704,
+ "tendencia_previa_pp_dia": {
+  "coef": -0.034,
+  "ee": 0.01,
+  "p": 0.001,
+  "ic95": [
+   -0.05,
+   -0.01
+  ]
+ },
+ "salto_post_1a_vuelta": {
+  "coef": -1.535,
+  "ee": 0.873,
+  "p": 0.079,
+  "ic95": [
+   -3.24,
+   0.18
+  ]
+ },
+ "pendiente_posterior_pp_dia": {
+  "coef": 0.103,
+  "ee": 0.053,
+  "p": 0.052,
+  "ic95": [
+   -0.0,
+   0.21
+  ]
+ },
+ "modelo_con_debate_band": {
+  "band": {
+   "coef": -0.377,
+   "ee": 1.835,
+   "p": 0.837,
+   "ic95": [
+    -3.97,
+    3.22
+   ]
+  },
+  "r2": 0.704
+ },
+ "efectos_instituto": {
+  "Datafolha": 0.66,
+  "Futura": -1.77,
+  "Ideia": 0.02,
+  "Indexa": 0.99,
+  "Ipespe": -1.03,
+  "MDA": 3.22,
+  "Nexus": 0.1,
+  "Palver": -1.74,
+  "PoderData": -0.64,
+  "Quaest": -0.46,
+  "Real Time": -0.51,
+  "Vox": 0.32
+ },
+ "medias_ajustadas": [
+  {
+   "periodo": "1) tras la 1ª vuelta, antes de Band",
+   "n": 6,
+   "media": 48.6
+  },
+  {
+   "periodo": "2) entre Band y Globo",
+   "n": 3,
+   "media": 49.44
+  },
+  {
+   "periodo": "3) desde Globo",
+   "n": 4,
+   "media": 49.84
+  }
+ ],
+ "media_cruda_antes_despues_band": [
+  {
+   "grupo": "antes de Band",
+   "n": 6,
+   "media": 48.26
+  },
+  {
+   "grupo": "después de Band",
+   "n": 7,
+   "media": 49.5
+  }
+ ]
+}

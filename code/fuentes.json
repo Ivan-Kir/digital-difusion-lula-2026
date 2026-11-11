@@ -1,0 +1,544 @@
+{
+ "fuentes": [
+  {
+   "id": "S1",
+   "texto": "Agência Lupa, 12/10 — análisis de 721 mensajes del canal",
+   "url": "https://www.agencialupa.org/jornalismo/2026/10/12/canal-exercito-do-lula-tem-desinformacao-lupa-analisou-mais-de-700-mensagens-enviadas-por-janones/"
+  },
+  {
+   "id": "S2",
+   "texto": "Agência Pública, 25/10",
+   "url": "https://apublica.org/2026/10/exercito-de-lula-presidente-consegue-virada-inedita/"
+  },
+  {
+   "id": "S3",
+   "texto": "Poder360 — informe Casa Galileia / Democracia em Xeque",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/nikolas-e-janones-tem-alta-no-engajamento-depois-do-1o-turno/"
+  },
+  {
+   "id": "S4",
+   "texto": "Poder360, 22/10 — el TSE da 24 h a Meta",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/tse-da-24h-para-meta-detalhar-canal-exercito-do-lula/"
+  },
+  {
+   "id": "S5",
+   "texto": "Informes de X, Google y Meta al TSE (Brasil 247)",
+   "url": "https://brasil247.com/geral/google-e-x-informam-ao-tse-que-nao-encontraram-irregularidades-em-acoes-do-canal-exercito-do-lula"
+  },
+  {
+   "id": "S5b",
+   "texto": "Informe de Meta al TSE (O Folha de Minas)",
+   "url": "https://ofolhademinas.com.br/meta-diz-ao-tse-que-exercito-do-lula-nao-viola-regras-da-plataforma/"
+  },
+  {
+   "id": "S6",
+   "texto": "CNN Brasil, 22/10",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/kassio-da-24-horas-para-meta-detalhar-atuacao-do-canal-exercito-do-lula/"
+  },
+  {
+   "id": "S7",
+   "texto": "BBC News Brasil, vía Correio Braziliense",
+   "url": "https://www.correiobraziliense.com.br/mundo/2026/10/7527808-como-janones-montou-um-exercito-digital-na-campanha-de-lula-e-qual-espaco-pode-ter-no-novo-governo.html"
+  },
+  {
+   "id": "S8",
+   "texto": "NetLab UFRJ — Observatório das Big Techs, boletines 2º turno",
+   "url": "https://netlab.eco.ufrj.br/post/observat%C3%B3rio-das-big-techs-boletins-do-2%C2%BA-turno-elei%C3%A7%C3%B5es-2026"
+  },
+  {
+   "id": "S9",
+   "texto": "Brasil de Fato, 21/10",
+   "url": "https://www.brasildefato.com.br/podcast/brasil-de-fato-entrevista/2026/10/21/janones-esta-fazendo-uma-revolucao-na-mobilizacao-da-campanha-de-lula-avalia-pesquisador/"
+  },
+  {
+   "id": "S9b",
+   "texto": "Revista Fórum, 24/10 — acto en la Paulista y live de 24 h",
+   "url": "https://revistaforum.com.br/politica/exercito-de-lula-janones-paulista/"
+  },
+  {
+   "id": "S10",
+   "texto": "Revista Fórum sobre Quaest",
+   "url": "https://revistaforum.com.br/politica/quaest-exercito-lula-janones/"
+  },
+  {
+   "id": "S11",
+   "texto": "Fast Company Brasil, 25/10",
+   "url": "https://fastcompanybrasil.com/creators-tech/eleicao-2026-campanha-2030-redes-sociais-copiar/"
+  },
+  {
+   "id": "S12",
+   "texto": "Aos Fatos",
+   "url": "https://www.aosfatos.org/noticias/ia-ultrarrealista-whatsapp-desinformacao-moldou-eleicoes/"
+  },
+  {
+   "id": "S13",
+   "texto": "Poder360 — análisis, 25/10",
+   "url": "https://www.poder360.com.br/analise/janones-e-a-mobilizacao-digital-que-marcou-a-virada-de-lula/"
+  },
+  {
+   "id": "S14",
+   "texto": "Poder360 — Janones impulsiona buscas negativas tras el debate de Band",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/janones-impulsiona-buscas-negativas-sobre-flavio-apos-debate-na-band/"
+  },
+  {
+   "id": "S14b",
+   "texto": "Gazeta do Povo — convocatoria a inflar búsquedas durante el debate",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/janones-convoca-militancia-inflar-buscas-negativas-contra-flavio-debate/"
+  },
+  {
+   "id": "S15",
+   "texto": "Poder360 con datos de Agência Bites — interacciones tras el debate",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-tem-5-vezes-mais-interacoes-nas-redes-que-flavio-apos-debate/"
+  },
+  {
+   "id": "S16",
+   "texto": "TSE — balance del 2º turno",
+   "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/presidente-do-tse-anuncia-reeleicao-de-lula-e-faz-balanco-do-2o-turno-das-eleicoes-2026"
+  },
+  {
+   "id": "S17",
+   "texto": "Revista Fórum (datos TSE) — crecimiento por estado",
+   "url": "https://revistaforum.com.br/politica/lula-cresceu-todos-estados-virada/"
+  },
+  {
+   "id": "S18",
+   "texto": "Exame — Quaest 17–20/10, destino de los votos",
+   "url": "https://exame.com/brasil/para-onde-vao-os-votos-de-cury-caiado-e-renan-no-2o-turno-pesquisa-quaest-responde/"
+  },
+  {
+   "id": "S19",
+   "texto": "CNN Brasil — Datafolha 22/10 por segmentos",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/datafolha-veja-como-flavio-e-lula-pontuam-por-renda-genero-e-religiao/"
+  },
+  {
+   "id": "S20",
+   "texto": "AtlasIntel 19/10 (Mixvale)",
+   "url": "https://www.mixvale.com.br/2026/10/19/pesquisa-atlasintel-mostra-flavio-bolsonaro-com-498-e-lula-com-476-no-segundo-turno-nas-eleicoes-2026/"
+  },
+  {
+   "id": "S20b",
+   "texto": "AtlasIntel 9/10 (DGABC)",
+   "url": "https://www.dgabc.com.br/Noticia/4351801/atlas-bloomberg-flavio-bolsonaro-tem-51-1-contra-45-7-de-lula-no-2-turno"
+  },
+  {
+   "id": "S21",
+   "texto": "PoderData 10–12/10 (BP Money)",
+   "url": "https://bpmoney.com.br/?p=426261"
+  },
+  {
+   "id": "S22",
+   "texto": "Gazeta do Povo — encuestas finales y de la víspera de la 1ª vuelta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/institutos-pesquisa-erram-vencedor-eleicao-veja-qual-chegou-mais-perto/"
+  },
+  {
+   "id": "S22b",
+   "texto": "Gazeta do Povo — «E as pesquisas erraram de novo»",
+   "url": "https://www.gazetadopovo.com.br/opiniao/artigos/e-as-pesquisas-erraram-de-novo-urnas-desmentem-previsoes-de-institutos-a-cada-eleicao/"
+  },
+  {
+   "id": "S22c",
+   "texto": "Diário do Centro do Mundo — error de los institutos",
+   "url": "https://www.diariodocentrodomundo.com.br/institutos-erraram-ao-tentar-driblar-seus-proprios-metodos-e-modelos"
+  },
+  {
+   "id": "S23",
+   "texto": "e26.pm.radio.am — apuración y estimación de flujos (gráfico de El Atlas, D. Schteingart, 26/10)",
+   "url": "https://e26.pm.radio.am/"
+  },
+  {
+   "id": "S24",
+   "texto": "lorande — transición de votos 1º → 2º turno (GitHub)",
+   "url": "https://github.com/lorande/transicao-votos-2026"
+  },
+  {
+   "id": "S25",
+   "texto": "Maia, R. — auditoría estadística de la transferencia de votos (GitHub)",
+   "url": "https://github.com/ricardomaia/eleicoes_2026"
+  },
+  {
+   "id": "S26",
+   "texto": "Dataset estructurado de tendencias de X (Twitter Trending Archive), Brasil, 1–25/10 — Compilación manual de registros históricos y visualización de interfaz, fecha de consulta: 26/10/2026 (CSV)",
+   "url": "data/twitter_archive_snapshots.csv"
+  },
+  {
+   "id": "S27",
+   "texto": "Dataset estructurado de tendencias de X (GetDayTrends), Brasil, 1–25/10 — Compilación manual mediante navegación y estructuración de registros públicos, fecha de consulta: 26/10/2026 (CSV)",
+   "url": "data/getdaytrends_diario.csv"
+  },
+  {
+   "id": "S28",
+   "texto": "Registro manual de texto anonimizado de mensajes públicos del canal de difusión «EXÉRCITO DO LULA», 18–25/10 — Extracción y limpieza de publicaciones oficiales (sin timestamps ni datos personales de terceros), fecha de consulta: 27/10/2026 (TXT)",
+   "url": "data/raw/chat_exercito_do_lula_18-25oct.txt"
+  },
+  {
+   "id": "S29",
+   "texto": "Repositorio multimedia manual (imágenes del canal y capturas de notas periodísticas externas), fecha de descarga: 27/10/2026 — Excluido de distribución pública por restricciones de propiedad intelectual y derechos de autor",
+   "url": null"
+  },
+  {
+   "id": "S30",
+   "texto": "Google Trends — 24 reportes de interés relativo de búsqueda, ventanas analíticas deslizantes de 15 y 30 días desde la fecha de consulta, descargados y estructurados manualmente el 27/10/2026 (CSV)",
+   "url": "data/raw/google_trends_combined_27oct.csv"
+  },
+  {
+   "id": "S31",
+   "texto": "TVT News (canal creado en abril)",
+   "url": "https://tvtnews.com.br/?p=807286"
+  },
+  {
+   "id": "S31b",
+   "texto": "Congresso em Foco — video Lula–Janones del 15/10",
+   "url": "https://www.congressoemfoco.com.br/noticia/123273/lula-diz-que-vai-usar-celular-de-janja-para-entrar-no-canal-de-janones"
+  },
+  {
+   "id": "S31c",
+   "texto": "DGABC — alta hospitalaria de Janones",
+   "url": "https://www.dgabc.com.br/Noticia/4353823/janones-e-recebido-por-apoiadores-apos-ter-alta-hospitalar-e-compara-lula-a-messi"
+  },
+  {
+   "id": "S32",
+   "texto": "Tribuna do Sertão — el TSE cobra explicaciones a Meta, Google y X",
+   "url": "https://www.tribunadosertao.com.br/geral/2026/10/22/1003317-tse-cobra-explicacoes-de-meta-google-e-x-sobre-suposta-mobilizacao-coordenada"
+  },
+  {
+   "id": "S32b",
+   "texto": "Diário Carioca — Flávio vuelve al TSE contra el canal",
+   "url": "https://www.diariocarioca.com/2026/10/21/politica/flavio-bolsonaro-tse-restricoes-canal-janones/"
+  },
+  {
+   "id": "S33",
+   "texto": "Wikipedia — encuestas de la elección presidencial 2026 (tabla de 2ª vuelta)",
+   "url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Brazilian_presidential_election"
+  },
+  {
+   "id": "S33b",
+   "texto": "Tribuna de Jundiaí — Datafolha por segmentos antes de la 1ª vuelta",
+   "url": "https://tribunadejundiai.com.br/politica/eleicoes-2026/datafolha-lula-flavio-bolsonaro-perfil-eleitor-renda-religiao/"
+  },
+  {
+   "id": "S33c",
+   "texto": "JOTA / Quaest, enero de 2026",
+   "url": "https://tagteam.harvard.edu/hub_feeds/3884/feed_items/17183858/content"
+  },
+  {
+   "id": "S34",
+   "texto": "DGABC — resultado de la 1ª vuelta con 100% de secciones",
+   "url": "https://www.dgabc.com.br/Noticia/4350923/com-100-das-secoes-totalizadas-flavio-tem-47-03-lula-tem-45-16-e-cury-2-89"
+  },
+  {
+   "id": "S34b",
+   "texto": "Brasil 61 — resultados por estado, 1ª vuelta",
+   "url": "https://brasil61.com/n/eleicoes-2026-flavio-bolsonaro-e-lula-disputarao-segundo-turno-para-a-presidencia-da-republica-bras2617218"
+  }
+ ],
+ "referencias": [
+  {
+   "id": "R1",
+   "texto": "Bond, R. M. et al. A 61-million-person experiment in social influence and political mobilization. Nature 489, 295–298.",
+   "anio": 2012,
+   "url": "https://researchconnect.stonybrook.edu/en/publications/a-61-million-person-experiment-in-social-influence-and-political-/",
+   "verificada": true
+  },
+  {
+   "id": "R2",
+   "texto": "Centola, D. The spread of behavior in an online social network experiment. Science 329, 1194–1197.",
+   "anio": 2010,
+   "url": "https://scholar.google.com/scholar?q=Centola%20The%20spread%20of%20behavior%20in%20an%20online%20social%20network%20experiment%20Science%202010",
+   "verificada": false
+  },
+  {
+   "id": "R3",
+   "texto": "Romero, D. M., Meeder, B. y Kleinberg, J. Differences in the mechanics of information diffusion across topics: idioms, political hashtags, and complex contagion on Twitter. WWW.",
+   "anio": 2011,
+   "url": "https://scholar.google.com/scholar?q=Romero%20Meeder%20Kleinberg%20political%20hashtags%20complex%20contagion%20Twitter",
+   "verificada": false
+  },
+  {
+   "id": "R4",
+   "texto": "Goel, S., Anderson, A., Hofman, J. y Watts, D. J. The structural virality of online diffusion. Management Science 62(1).",
+   "anio": 2016,
+   "url": "https://scholar.google.com/scholar?q=Goel%20Anderson%20Hofman%20Watts%20structural%20virality%20of%20online%20diffusion",
+   "verificada": false
+  },
+  {
+   "id": "R5",
+   "texto": "Guilbeault, D. y Centola, D. Topological measures for identifying and predicting the spread of complex contagions. Nature Communications 12, 4430.",
+   "anio": 2021,
+   "url": "https://scholar.google.com/scholar?q=Guilbeault%20Centola%20topological%20measures%20complex%20contagions%20Nature%20Communications%202021",
+   "verificada": false
+  },
+  {
+   "id": "R6",
+   "texto": "Bakshy, E. et al. Everyone's an influencer: quantifying influence on Twitter. WSDM.",
+   "anio": 2011,
+   "url": "https://scholar.google.com/scholar?q=Bakshy%20Hofman%20Mason%20Watts%20Everyone%27s%20an%20influencer",
+   "verificada": false
+  },
+  {
+   "id": "R7",
+   "texto": "Dunbar, R. I. M. Neocortex size as a constraint on group size in primates. Journal of Human Evolution 22.",
+   "anio": 1992,
+   "url": "https://scholar.google.com/scholar?q=Dunbar%201992%20Neocortex%20size%20as%20a%20constraint%20on%20group%20size%20in%20primates",
+   "verificada": false
+  },
+  {
+   "id": "R8",
+   "texto": "Deterding, S. et al. From game design elements to gamefulness: defining «gamification». MindTrek.",
+   "anio": 2011,
+   "url": "https://scholar.google.com/scholar?q=Deterding%20From%20game%20design%20elements%20to%20gamefulness%20defining%20gamification",
+   "verificada": false
+  },
+  {
+   "id": "R9",
+   "texto": "Koivisto, J. y Hamari, J. The rise of motivational information systems: a review of gamification research. International Journal of Information Management 45.",
+   "anio": 2019,
+   "url": "https://scholar.google.com/scholar?q=Koivisto%20Hamari%20The%20rise%20of%20motivational%20information%20systems%20gamification%20research",
+   "verificada": false
+  },
+  {
+   "id": "R10",
+   "texto": "Sailer, M. y Homner, L. The gamification of learning: a meta-analysis. Educational Psychology Review 32.",
+   "anio": 2020,
+   "url": "https://scholar.google.com/scholar?q=Sailer%20Homner%20The%20gamification%20of%20learning%20a%20meta-analysis",
+   "verificada": false
+  },
+  {
+   "id": "R11",
+   "texto": "Ryan, R. M. y Deci, E. L. Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being. American Psychologist 55(1).",
+   "anio": 2000,
+   "url": "https://scholar.google.com/scholar?q=Ryan%20Deci%202000%20Self-determination%20theory%20facilitation%20of%20intrinsic%20motivation",
+   "verificada": false
+  },
+  {
+   "id": "R12",
+   "texto": "Locke, E. A. y Latham, G. P. Building a practically useful theory of goal setting and task motivation. American Psychologist 57(9).",
+   "anio": 2002,
+   "url": "https://scholar.google.com/scholar?q=Locke%20Latham%202002%20Building%20a%20practically%20useful%20theory%20of%20goal%20setting",
+   "verificada": false
+  },
+  {
+   "id": "R13",
+   "texto": "Gerber, A. S., Green, D. P. y Larimer, C. W. Social pressure and voter turnout: evidence from a large-scale field experiment. APSR 102(1).",
+   "anio": 2008,
+   "url": "https://www.povertyactionlab.org/evaluation/social-pressure-and-voter-turnout-united-states",
+   "verificada": true
+  },
+  {
+   "id": "R14",
+   "texto": "Kalla, J. L. y Broockman, D. E. The minimal persuasive effects of campaign contact in general elections: evidence from 49 field experiments. APSR 112(1).",
+   "anio": 2018,
+   "url": "https://cambridge.org/core/journals/american-political-science-review/article/minimal-persuasive-effects-of-campaign-contact-in-general-elections-evidence-from-49-field-experiments/753665A313C4AB433DBF7110299B7433",
+   "verificada": true
+  },
+  {
+   "id": "R15",
+   "texto": "Coppock, A., Hill, S. J. y Vavreck, L. The small effects of political advertising are small regardless of context, message, sender, or receiver. Science Advances 6(36).",
+   "anio": 2020,
+   "url": "https://alexandercoppock.com/coppock_hill_vavreck_2020.html",
+   "verificada": true
+  },
+  {
+   "id": "R16",
+   "texto": "Hewitt, L. et al. How experiments help campaigns persuade voters: evidence from a large archive of campaigns' own experiments. APSR.",
+   "anio": 2024,
+   "url": "https://alexandercoppock.com/hewitt_etal_2024.html",
+   "verificada": true
+  },
+  {
+   "id": "R17",
+   "texto": "Kalla, J. L. y Broockman, D. E. Reducing exclusionary attitudes through interpersonal conversation (deep canvassing). APSR 114(2).",
+   "anio": 2020,
+   "url": "https://scholar.google.com/scholar?q=Kalla%20Broockman%20Reducing%20exclusionary%20attitudes%20through%20interpersonal%20conversation%20deep%20canvassing",
+   "verificada": false
+  },
+  {
+   "id": "R18",
+   "texto": "Gerber, A. S. y Green, D. P. The effects of canvassing, telephone calls, and direct mail on voter turnout: a field experiment. APSR 94(3).",
+   "anio": 2000,
+   "url": "https://scholar.google.com/scholar?q=Gerber%20Green%202000%20effects%20of%20canvassing%20telephone%20calls%20and%20direct%20mail%20on%20voter%20turnout",
+   "verificada": false
+  },
+  {
+   "id": "R19",
+   "texto": "Cox, G. W. y McCubbins, M. D. Electoral politics as a redistributive game. Journal of Politics 48(2).",
+   "anio": 1986,
+   "url": "https://scholar.google.com/scholar?q=Cox%20McCubbins%201986%20Electoral%20politics%20as%20a%20redistributive%20game",
+   "verificada": false
+  },
+  {
+   "id": "R20",
+   "texto": "Flusberg, S. J., Matlock, T. y Thibodeau, P. H. War metaphors in public discourse. Metaphor and Symbol 33(1).",
+   "anio": 2018,
+   "url": "https://scholar.google.com/scholar?q=Flusberg%20Matlock%20Thibodeau%20War%20metaphors%20in%20public%20discourse",
+   "verificada": false
+  },
+  {
+   "id": "R21",
+   "texto": "Iyengar, S. et al. The origins and consequences of affective polarization in the United States. Annual Review of Political Science 22.",
+   "anio": 2019,
+   "url": "https://scholar.google.com/scholar?q=Iyengar%20Lelkes%20Levendusky%20Malhotra%20Westwood%20affective%20polarization%20origins%20consequences",
+   "verificada": false
+  },
+  {
+   "id": "R22",
+   "texto": "Layton, M. L. et al. Demographic polarization and the rise of the far right: Brazil's 2018 presidential election. Research & Politics 8(1).",
+   "anio": 2021,
+   "url": "https://scholar.google.com/scholar?q=Layton%20Smith%20Moseley%20Cohen%20Demographic%20polarization%20and%20the%20rise%20of%20the%20far%20right%20Brazil%202018",
+   "verificada": false
+  },
+  {
+   "id": "R23",
+   "texto": "Cancela, J. y Geys, B. Explaining voter turnout: a meta-analysis of national and subnational elections. Electoral Studies 42.",
+   "anio": 2016,
+   "url": "https://scholar.google.com/scholar?q=Cancela%20Geys%20Explaining%20voter%20turnout%20meta-analysis%20national%20subnational%20elections",
+   "verificada": false
+  },
+  {
+   "id": "R24",
+   "texto": "Brady, W. J. et al. Emotion shapes the diffusion of moralized content in social networks. PNAS 114(28).",
+   "anio": 2017,
+   "url": "https://collaborate.princeton.edu/en/publications/emotion-shapes-the-diffusion-of-moralized-content-in-social-netwo/",
+   "verificada": true
+  },
+  {
+   "id": "R25",
+   "texto": "Rathje, S., Van Bavel, J. J. y van der Linden, S. Out-group animosity drives engagement on social media. PNAS 118(26).",
+   "anio": 2021,
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/8256037",
+   "verificada": true
+  },
+  {
+   "id": "R26",
+   "texto": "Brady, W. J. et al. Estimating the effect size of moral contagion in online networks: a pre-registered replication and meta-analysis. PNAS Nexus.",
+   "anio": 2025,
+   "url": "https://www.kellogg.northwestern.edu/academics-research/research/detail/2025/estimating-the-effect-size-of-moral-contagion-in-online/",
+   "verificada": true
+  },
+  {
+   "id": "R27",
+   "texto": "Brader, T. Striking a responsive chord: how political ads motivate and persuade voters by appealing to emotions. AJPS 49(2).",
+   "anio": 2005,
+   "url": "https://scholar.google.com/scholar?q=Brader%202005%20Striking%20a%20responsive%20chord%20political%20ads%20emotions",
+   "verificada": false
+  },
+  {
+   "id": "R28",
+   "texto": "Valentino, N. A. et al. Election night's alright for fighting: the role of emotions in political participation. Journal of Politics 73(1).",
+   "anio": 2011,
+   "url": "https://scholar.google.com/scholar?q=Valentino%20Brader%20Groenendyk%20Gregorowicz%20Hutchings%20Election%20night%27s%20alright%20for%20fighting",
+   "verificada": false
+  },
+  {
+   "id": "R29",
+   "texto": "Vaccari, C., Chadwick, A. y O'Loughlin, B. Dual screening the political: media events, social media, and citizen engagement. Journal of Communication 65(6).",
+   "anio": 2015,
+   "url": "https://scholar.google.com/scholar?q=Vaccari%20Chadwick%20O%27Loughlin%20Dual%20screening%20the%20political",
+   "verificada": false
+  },
+  {
+   "id": "R30",
+   "texto": "Gerber, A. S., Huber, G. A. et al. Estudio sobre los efectos de los debates presidenciales en la intención de voto (borrador de trabajo).",
+   "anio": 2026,
+   "url": "https://huber.research.yale.edu/materials/126_paper.pdf",
+   "verificada": true
+  },
+  {
+   "id": "R31",
+   "texto": "Shorenstein Center. Informe sobre cambios en las preferencias de los votantes tras el primer debate presidencial de 2024.",
+   "anio": 2024,
+   "url": "https://shorensteincenter.org/resource/new-report-finds-no-significant-change-voter-preferences-first-us-presidential-debate/",
+   "verificada": true
+  },
+  {
+   "id": "R32",
+   "texto": "Keller, F. B., Schoch, D., Stier, S. y Yang, J. Political astroturfing on Twitter: how to coordinate a disinformation campaign. Political Communication 37(2).",
+   "anio": 2020,
+   "url": "https://boris.unibe.ch/183090",
+   "verificada": true
+  },
+  {
+   "id": "R33",
+   "texto": "Schoch, D. et al. Coordination patterns reveal online political astroturfing across the world. Scientific Reports 12.",
+   "anio": 2022,
+   "url": "https://madoc.bib.uni-mannheim.de/67955",
+   "verificada": true
+  },
+  {
+   "id": "R34",
+   "texto": "Pacheco, D. et al. Uncovering coordinated networks on social media: methods and case studies. ICWSM.",
+   "anio": 2021,
+   "url": "https://alphaxiv.org/abs/2001.05658",
+   "verificada": true
+  },
+  {
+   "id": "R35",
+   "texto": "Yang, K.-C. y Menczer, F. Anatomy of an AI-powered malicious social botnet. Journal of Quantitative Description: Digital Media.",
+   "anio": 2024,
+   "url": "https://journalqd.org/article/view/5848",
+   "verificada": true
+  },
+  {
+   "id": "R36",
+   "texto": "Imperva. Bad Bot Report 2025 (informe de un proveedor; 51% del tráfico automatizado en 2024), según TechRadar.",
+   "anio": 2025,
+   "url": "https://www.techradar.com/pro/security/bots-now-account-for-over-half-of-all-internet-traffic",
+   "verificada": true
+  },
+  {
+   "id": "R37",
+   "texto": "Walter, Y. Artificial influencers and the dead internet theory. AI & Society.",
+   "anio": 2025,
+   "url": "https://scholar.google.com/scholar?q=Walter%20Artificial%20influencers%20and%20the%20dead%20internet%20theory%20AI%20%26%20Society",
+   "verificada": false
+  },
+  {
+   "id": "R38",
+   "texto": "Shao, C. et al. The spread of low-credibility content by social bots. Nature Communications 9, 4787.",
+   "anio": 2018,
+   "url": "https://scholar.google.com/scholar?q=Shao%20Ciampaglia%20Varol%20Yang%20Flammini%20Menczer%20spread%20of%20low-credibility%20content%20by%20social%20bots",
+   "verificada": false
+  },
+  {
+   "id": "R39",
+   "texto": "Melo, P. F. et al. Can WhatsApp counter misinformation by limiting message forwarding? Complex Networks.",
+   "anio": 2019,
+   "url": "https://scholar.google.com/scholar?q=Melo%20Can%20WhatsApp%20counter%20misinformation%20by%20limiting%20message%20forwarding",
+   "verificada": false
+  },
+  {
+   "id": "R40",
+   "texto": "Jansen, S. C. y Martin, B. The Streisand effect and censorship backfire. International Journal of Communication 9.",
+   "anio": 2015,
+   "url": "https://scholar.google.com/scholar?q=Jansen%20Martin%20The%20Streisand%20effect%20and%20censorship%20backfire",
+   "verificada": false
+  },
+  {
+   "id": "R41",
+   "texto": "Hobbs, W. R. y Roberts, M. E. How sudden censorship can increase access to information. APSR 112(3).",
+   "anio": 2018,
+   "url": "https://scholar.google.com/scholar?q=Hobbs%20Roberts%20How%20sudden%20censorship%20can%20increase%20access%20to%20information",
+   "verificada": false
+  },
+  {
+   "id": "R42",
+   "texto": "Jhaver, S. et al. Evaluating the effectiveness of deplatforming as a moderation strategy on Twitter. CSCW.",
+   "anio": 2021,
+   "url": "https://scholar.google.com/scholar?q=Jhaver%20Boylston%20Yang%20Bruckman%20Evaluating%20the%20effectiveness%20of%20deplatforming%20as%20a%20moderation%20strategy%20on%20Twitter",
+   "verificada": false
+  },
+  {
+   "id": "R43",
+   "texto": "Granovetter, M. Threshold models of collective behavior. American Journal of Sociology 83(6).",
+   "anio": 1978,
+   "url": "https://scholar.google.com/scholar?q=Granovetter%201978%20Threshold%20models%20of%20collective%20behavior",
+   "verificada": false
+  },
+  {
+   "id": "R44",
+   "texto": "Starbird, K. Disinformation's spread: bots, trolls and all of us. Nature 571, 449.",
+   "anio": 2019,
+   "url": "https://scholar.google.com/scholar?q=Starbird%20Disinformation%27s%20spread%20bots%20trolls%20and%20all%20of%20us%20Nature%202019",
+   "verificada": false
+  }
+ ]
+}

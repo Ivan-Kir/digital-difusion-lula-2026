@@ -1,0 +1,28 @@
+{
+ "consultas_unicas": 608,
+ "candidatos_unicas": 44,
+ "cruce_objetivo_marco": {
+  "acusación, escándalo o crítica": {
+   "Flávio": 13,
+   "Janones": 2,
+   "Lula": 6,
+   "Otro": 0
+  },
+  "edad": {
+   "Flávio": 0,
+   "Janones": 0,
+   "Lula": 6,
+   "Otro": 0
+  },
+  "neutral, política pública o apuración": {
+   "Flávio": 9,
+   "Janones": 0,
+   "Lula": 7,
+   "Otro": 1
+  }
+ },
+ "politicas_pct": {
+  "última semana": 31.0,
+  "último mes": 25.8
+ }
+}

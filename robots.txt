@@ -1,31 +1,58 @@
 # =======================================================
-# 1. PERMITIR CITAS Y BÚSQUEDAS EN TIEMPO REAL (Para aparecer como bibliografía)
+# 1. PERMITIR CITAS Y BÚSQUEDAS EN TIEMPO REAL (GEO / AI Search)
 # =======================================================
 
+# OpenAI / ChatGPT (Búsqueda e interacción directa)
 User-agent: OAI-SearchBot
 Allow: /
 
 User-agent: ChatGPT-User
 Allow: /
 
+# Anthropic / Claude (Búsqueda e interacción directa)
 User-agent: Claude-SearchBot
 Allow: /
 
+User-agent: Claude-User
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-SearchBot
+Allow: /
+
+# Nota: Bingbot / Copilot y Googlebot están implícitamente permitidos por defecto.
+
+
 # =======================================================
-# 2. BLOQUEAR EL ENTRENAMIENTO DE IA (No usan tus datos para aprender)
+# 2. BLOQUEAR EL ENTRENAMIENTO DE IA (Data Scraping)
 # =======================================================
 
+# OpenAI (Entrenamiento de modelos)
 User-agent: GPTBot
 Disallow: /
 
+# Anthropic (Entrenamiento de modelos)
 User-agent: ClaudeBot
 Disallow: /
 
 User-agent: Claude-Web
 Disallow: /
 
+# Google (Entrenamiento Gemini / PaLM - No afecta el índice de Googlebot)
+User-agent: Google-Extended
+Disallow: /
+
+# Common Crawl (Dataset público masivo utilizado por múltiples LLMs)
 User-agent: CCBot
 Disallow: /
 
-User-agent: Google-Extended
+# ByteDance / TikTok
+User-agent: Bytespider
+Disallow: /
+
+# Meta (LLaMA training crawlers)
+User-agent: Meta-ExternalAgent
 Disallow: /
